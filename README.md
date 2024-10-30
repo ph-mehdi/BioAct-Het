@@ -17,6 +17,9 @@ In order to get started you will need:
 * Numpy
 * Pandas
 * Matbplotlib
+
+### When installing these libraries, their dependencies will be managed automatically. However, it's important to verify that the installed versions are compatible with each other to avoid any issues.
+
 # Our Approach
 This study proposes a new method called BioAct-Het, which aims to determine the likelihood of association between a compound and a bioactivity class, rather than learning the similarity between two compounds, which can be complicated due to relationship challenge. BioAct-Het exploits a heterogeneous siamese neural network  to map chemical compounds and bioactivity classes into a unified latent space that is capable of representing bioactivity classes based on related compounds. The performance of BioAct-Het is evaluated using both supervised learning and meta-learning approaches on three databases: SIDER, Tox21, and MUV.
 
