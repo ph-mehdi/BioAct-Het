@@ -40,7 +40,7 @@ def siamese_model_attentiveFp_tox21 (lr_1 = 0.001 , lr_2 = 0.001):
     encoded_l = model1(left_input)
     encoded_r = model2(right_input)
 
-    L1 = tf.keras.layers.Lambda (lambda x: K.abs(x[0]-x[1]))([encoded_l, encoded_r])
+    L1 = tf.keras.layers.Lambda(lambda x: tf.abs(x[0] - x[1]))([encoded_l, encoded_r])
 
     L1_D = tf.keras.layers.Dropout(0.3)(L1)
     L2 = tf.keras.layers.Dense(64, activation='relu')(L1_D)
@@ -89,7 +89,7 @@ def siamese_model_Canonical_tox21 (lr_1 = 0.001 , lr_2 = 0.001):
     encoded_l = model1(left_input)
     encoded_r = model2(right_input)
 
-    L1 = tf.keras.layers.Lambda (lambda x: K.abs(x[0]-x[1]))([encoded_l, encoded_r])
+    L1 = tf.keras.layers.Lambda(lambda x: tf.abs(x[0] - x[1]))([encoded_l, encoded_r])
 
     L1_D = tf.keras.layers.Dropout(0.3)(L1)
     L2 = tf.keras.layers.Dense(32, activation='relu')(L1_D)
