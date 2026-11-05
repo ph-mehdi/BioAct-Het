@@ -1,4 +1,13 @@
 # BioAct-Het: Heterogeneous siamese neural network for bioactivity prediction using novel bioactivity representation 
+
+## Publication
+
+Published in **ACS Omega (2023)**: [Read the article](https://doi.org/10.1021/acsomega.3c05778) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38046344/).
+
+Co-author **Mehdi Paykan Heyrati** is also known as **Mehdi Peykan Heyrati**. His name in Persian is **مهدی پیکان حیرتی**.
+
+Author profiles: [GitHub](https://github.com/ph-mehdi) · [LinkedIn](https://www.linkedin.com/in/ph-mehdi/).
+
 ![Graphical abstract](https://github.com/ph-mehdi/BioAct-Het/blob/main/Figures/4-Graphical%20abstract.png)
 
 Drug failure during experimental procedures due to low bioactivity is a major problem, and predicting bioactivity classes during lead optimization can reduce the risk of failure and enhance the compound bioactivities. Recent studies have shown a relationship between the chemical structure of compounds and their bioactivity, i.e., structure-activity relationship (SAR). However, these studies often overlook the complex relationship between drugs and bioactivity, which involves multiple factors beyond chemical structure alone. To address this issue, we propose the BioAct-Het model which utilizes a heterogenous siamese neural network to find the complex relationship between drugs and bioactivity classes by bringing them into a unified latent space. In this study, we not only define a novel representation for the bioactivity classes named Bio-Prof, but also, we improve the original datasets of bioactivities to address data scarcity. These both ideas cause our model outperformers previous models. The evaluation of BioAct-Het is based on three strategies: association-based, bioactivity class-based, and compound-based. The association-based strategy focuses on supervised learning classification, while the bioactivity class-based strategy adopts a retrospective studies evaluation approach. In contrast, the compound-based strategy is more similar to the concept of meta-learning than the other two strategies.  
@@ -39,7 +48,7 @@ To assess the effectiveness of the proposed model in bringing compounds with sim
 ### Corresponding author
 *  Fatemeh Zare-Mirakabad __ Computational Biology Research Center (CBRC), Mathematics and Computer Science Faculty, Amir Kabir University of Technology, Tehran, Iran. Email: f.zare@aut.ac.ir.
 ### Authors
-* M.Paykan Heyrati__ Computational Biology Research Center (CBRC), Mathematics and Computer Science Faculty, Amir Kabir University of Technology, Tehran, Iran. Email: mehdi.paykan.heyrati@gmail.com , m.paykan.heyrati@aut.ac.ir
+* [Mehdi Paykan Heyrati — مهدی پیکان حیرتی](https://www.linkedin.com/in/ph-mehdi/) (also written as Mehdi Peykan Heyrati) __ Computational Biology Research Center (CBRC), Mathematics and Computer Science Faculty, Amir Kabir University of Technology, Tehran, Iran. Email: mehdi.paykan.heyrati@gmail.com , m.paykan.heyrati@aut.ac.ir
 * Zahra Ghorbanali __ Computational Biology Research Center (CBRC), Mathematics and Computer Science Faculty, Amir Kabir University of Technology, Tehran, Iran. Email: z_ghorbanali@aut.ac.ir
 * Mohammad Akbari __ Mathematics and Computer Science Faculty, Amir Kabir University of Technology, Tehran, Iran. Email: akbari.maaut.ac.ir
 * Ghasem Pishgahi __ Students' Scientific Research Center (SSRC), Tehran University of Medical Sciences, Tehran, Iran.Email: ghpishgahi@gmail.com
